@@ -1,8 +1,8 @@
 /*
  _________________________________________________
-||						 						 ||
-|| Name --------: SHERIFF OLAOYE		 		 ||
-|| Description -: A shell simulator	         	 ||
+||						 ||
+|| Name --------: SHERIFF OLAOYE		 ||
+|| Description -: A shell simulator	         ||
 ||_______________________________________________||
 */
 
@@ -13,9 +13,9 @@
 #include <sys/wait.h>
 
 int main(){
-	char* execPaths = getenv("PATH");		// get all system paths
+	char* execPaths = getenv("PATH");	// get all system paths
 
-	char* paths[30] = {NULL};				// create an array and initilize items to NULL
+	char* paths[30] = {NULL};		// create an array and initilize items to NULL
 	char* path = strtok(execPaths, ":");	// split the string
 
 	//printf("System PATH\n");
