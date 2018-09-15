@@ -60,7 +60,8 @@ int main(){
 				
 				char cmd[255];
 				// iterate through all the paths and run users command using each PATH
-				for(int k=0; k < numOfPaths; k++){
+				int k;
+				for(k=0; k < numOfPaths; k++){
 					strcpy(cmd, paths[k]);
 					strcat(cmd, "/");
 					strcat(cmd, args[0]);
