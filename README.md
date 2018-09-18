@@ -5,8 +5,8 @@ A C program that simulates the linux shell. It simulates basic shell commands. F
 ![screenshot from 2018-09-15 09-57-47](https://user-images.githubusercontent.com/24194821/45587703-f6e86800-b8ce-11e8-970d-fd0e19fab152.png)
 
 # How to Run
-1. run "gcc shell_program.c -o shell"
-2. run "./shell"
+1. run ```gcc shell_program.c -o shell```
+2. run ```./shell```
 
 # How it works
 * In the main, the getPath function is called to get the system path,
