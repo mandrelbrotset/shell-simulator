@@ -98,4 +98,5 @@ void executeCommands(char* input, char** paths, int pathSize){
 	}
 
 	fprintf(stderr, "No such command\n");	// print error message if the command doesnt exist
+	exit(1)
 }
